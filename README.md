@@ -1,4 +1,4 @@
-#-----------------[ ASHIK-King ]-------------------#
+#-----------------[ ASHIK-King ]-------------------#7
  
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -244,14 +244,13 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/RX-ASHIK/approval./blob/main/approval.txt').text
+    httpCaht = requests.get('https://githu
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
       msg = str(os.geteuid())
       #time.sleep(0.5)
       print()
-      pass
     else:
       print(meyermarexudi)
      # print(" \033[32;1m[+] Your Kay : "+id)
